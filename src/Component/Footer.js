@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footor-child" />
-        <img className="pngwing-10-icon" alt="" src="/pngwing-10@2x.png" />
+        {/* <img className="pngwing-10-icon" alt="" src="/pngwing-10@2x.png" /> */}
         <Link className="design-developed">{`Design & Developed by Appenius `}</Link>
       </div>
     

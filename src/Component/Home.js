@@ -2,6 +2,25 @@ import {React } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 // import "./Project.css";
+import img1 from "../Image/pngwing 17.png"
+import img2 from "../Image/pngwing 18.png"
+import img3 from "../Image/pngwing 19.png"
+import img4 from "../Image/pexels-amina-filkins-5414061 1.png"
+import img5 from "../Image/Rectangle 71.png"
+import img6 from "../Image/pexels-tima-miroshnichenko-8774564 1.png"
+import img7 from "../Image/Component 1.png"
+import img8 from "../Image/Component 2.png"
+import img9 from "../Image/Component 3.png"
+import img10 from "../Image/Directions-cuate (1) 1.png"
+import img11 from "../Image/Laundry and dry cleaning-rafiki 1.png"
+import img12 from "../Image/Laundry and dry cleaning-amico 1.png"
+import img13 from "../Image/Delivery address-amico 1.png"
+import img14 from "../Image/lady-putting-laundry-washing-machine 1.png"
+import img15 from "../Image/portrait-asian-female-wear-virus-protecting-mask-spread-covid19-washing-blue-color-interior-laundry-shop-condoiminuim-city-new-normal-lifestyle 1.png"
+import img16 from "../Image/unrecognizable-man-ironing-shirts-laundry-home 1.png"
+import img17 from "../Image/woman-ironing-her-husband-s-shirt 1.png"
+import img18 from "../Image/rafiki.png"
+
 
 import '../Project.css';
 const Home = () => {
@@ -9,9 +28,9 @@ const Home = () => {
     <div className="project">
      <Navbar/>
       <div className="window-1">
-        <img className="pngwing-18-icon" alt="" src="/pngwing-18@2x.png" />
-        <img className="pngwing-17-icon" alt="" src="/pngwing-17@2x.png" />
-        <img className="pngwing-19-icon" alt="" src="/pngwing-19@2x.png" />
+        {/* <img className="pngwing-18-icon" alt="" src={img2} /> */}
+        <img className="pngwing-17-icon" alt="" src={img1} />
+        <img className="pngwing-19-icon" alt="" src={img3} />
         <div className="every-spin-tells-container">
           <p className="every-spin">{`Every Spin `}</p>
           <p className="every-spin">tells a Story</p>
@@ -30,12 +49,12 @@ const Home = () => {
               <img
                 className="pexels-amina-filkins-5414061-1-icon"
                 alt=""
-                src="/pexelsaminafilkins5414061-1@2x.png"
+                src={img4}
               />
               <div className="available-on-weekends">Available on weekends</div>
               <div className="component-11">
                 <div className="component-1-item" />
-                <img className="vector-icon3" alt="" src="/vector@2x.png" />
+                <img className="vector-icon3" alt="" src={img7} />
               </div>
             </div>
             <div className="affordable-per-kilo-price-parent">
@@ -46,25 +65,25 @@ const Home = () => {
               <img
                 className="pexels-amina-filkins-5414061-1-icon"
                 alt=""
-                src="/rectangle-71@2x.png"
+                src={img5}
               />
               <div className="component-31">
                 <div className="component-1-item" />
-                <img className="vector-icon4" alt="" src="/vector@2x.png" />
+                <img className="vector-icon4" alt="" src={img9} />
               </div>
             </div>
             <div className="pexels-tima-miroshnichenko-877-parent">
               <img
                 className="pexels-amina-filkins-5414061-1-icon"
                 alt=""
-                src="/pexelstimamiroshnichenko8774564-1@2x.png"
+                src={img6}
               />
               <div className="certified-professional-cleaner">
                 Certified Professional Cleaners
               </div>
               <div className="component-21">
                 <div className="component-1-item" />
-                <img className="vector-icon5" alt="" src="/vector@2x.png" />
+                <img className="vector-icon5" alt="" src={img8} />
               </div>
             </div>
             <div className="satisfaction-guaranteed-parent">
@@ -102,7 +121,7 @@ const Home = () => {
       <div className="project-child" />
       <div className="process">
         <div className="process-child" />
-        <img className="pngwing-16-icon" alt="" src="/pngwing-16@2x.png" />
+        {/* <img className="pngwing-16-icon" alt="" src="/pngwing-16@2x.png" /> */}
         <div className="header1">
           <div className="how-it-works">How it works</div>
           <div className="get-it-done">Get it done in 4 steps</div>
@@ -113,7 +132,7 @@ const Home = () => {
             <img
               className="directions-cuate-1-1"
               alt=""
-              src="/directionscuate-1-1@2x.png"
+              src={img10}
             />
             <div className="step-1-parent">
               <div className="step-1">Step 1</div>
@@ -125,7 +144,7 @@ const Home = () => {
             <img
               className="laundry-and-dry-cleaning-rafik"
               alt=""
-              src="/laundry-and-dry-cleaningrafiki-1@2x.png"
+              src={img11}
             />
             <div className="step-1-parent">
               <div className="step-1">Step 2</div>
@@ -137,7 +156,7 @@ const Home = () => {
             <img
               className="laundry-and-dry-cleaning-amico"
               alt=""
-              src="/laundry-and-dry-cleaningamico-1@2x.png"
+              src={img12}
             />
             <div className="step-1-parent">
               <div className="step-1">Step 3</div>
@@ -149,7 +168,7 @@ const Home = () => {
             <img
               className="delivery-address-amico-1"
               alt=""
-              src="/delivery-addressamico-1@2x.png"
+              src={img13}
             />
             <div className="step-1-parent">
               <div className="step-1">Step 4</div>
@@ -161,15 +180,15 @@ const Home = () => {
       <div className="services1">
         <div className="services-child" />
         <div className="services-item" />
-        <img className="pngwing-14-icon" alt="" src="/pngwing-14@2x.png" />
-        <img className="pngwing-15-icon" alt="" src="/pngwing-15@2x.png" />
+        {/* <img className="pngwing-14-icon" alt="" src="/pngwing-14@2x.png" /> */}
+        {/* <img className="pngwing-15-icon" alt="" src="/pngwing-15@2x.png" /> */}
         <div className="cards1">
           <div className="cardbase-parent">
             <div className="cardbase">
               <img
                 className="lady-putting-laundry-washing-m-icon"
                 alt=""
-                src="/ladyputtinglaundrywashingmachine-1@2x.png"
+                src={img14}
               />
               <b className="wash">Wash</b>
             </div>
@@ -177,7 +196,7 @@ const Home = () => {
               <img
                 className="lady-putting-laundry-washing-m-icon"
                 alt=""
-                src="/portraitasianfemalewearvirusprotectingmaskspreadcovid19washingbluecolorinteriorlaundryshopcondoiminuimcitynewnormallifestyle-1@2x.png"
+                src={img15}
               />
               <b className="wash">Premium Wash</b>
             </div>
@@ -185,7 +204,7 @@ const Home = () => {
               <img
                 className="lady-putting-laundry-washing-m-icon"
                 alt=""
-                src="/unrecognizablemanironingshirtslaundryhome-1@2x.png"
+                src={img16}
               />
               <b className="wash">Iron</b>
             </div>
@@ -193,7 +212,7 @@ const Home = () => {
               <img
                 className="lady-putting-laundry-washing-m-icon"
                 alt=""
-                src="/womanironingherhusbandsshirt-1@2x.png"
+                src={img17}
               />
               <b className="wash">Dry Cleaning</b>
             </div>
@@ -231,11 +250,11 @@ const Home = () => {
 
 
       <div className="pngwing-14-parent">
-        <img className="pngwing-14-icon1" alt="" src="/pngwing-14@2x.png" />
+        {/* <img className="pngwing-14-icon1" alt="" src="/pngwing-14@2x.png" /> */}
         <img
           className="laundy-and-dry-cleaningrafiki-icon1"
           alt=""
-          src="/laundyanddrycleaningrafiki@2x.png"
+          src={img18}
         />
         <div className="lorem-ipsum-parent">
           <div className="lorem-ipsum">Lorem Ipsum</div>
