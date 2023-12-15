@@ -1,9 +1,10 @@
 import {React } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+
 // import "./Project.css";
 import img1 from "../Image/pngwing 17.png"
-import img2 from "../Image/pngwing 18.png"
+// import img2 from "../Image/pngwing 18.png"
 import img3 from "../Image/pngwing 19.png"
 import img4 from "../Image/pexels-amina-filkins-5414061 1.png"
 import img5 from "../Image/Rectangle 71.png"
@@ -23,6 +24,7 @@ import img18 from "../Image/rafiki.png"
 
 
 import '../Project.css';
+
 const Home = () => {
   return (
     <div className="project">
@@ -30,18 +32,50 @@ const Home = () => {
       <div className="window-1">
         {/* <img className="pngwing-18-icon" alt="" src={img2} /> */}
         <img className="pngwing-17-icon" alt="" src={img1} />
+        
         <img className="pngwing-19-icon" alt="" src={img3} />
         <div className="every-spin-tells-container">
           <p className="every-spin">{`Every Spin `}</p>
           <p className="every-spin">tells a Story</p>
         </div>
       </div>
+
+
+{/* <BubbleAnimation/> */}
+{/* bubbles */}
+<div id="bubble2" className="gradientBubble"></div>
+<div id="bubble" className="gradientBubble"></div>
+<div id="bubble" className="gradientBubble"></div>
+<div id="bubble3" className="gradientBubble"></div>
+<div id="bubble4" className="gradientBubble"></div>
+
+
+{/* <div id="bubble4" className="gradientBubble"></div> */}
+<div id="moon"></div>
+{/* bubbles */}
+
+
+
+
       {/* <img className="pngwing-6-icon" alt="" src="/pngwing-6@2x.png" />
       <img className="pngwing-4-icon" alt="" src="/pngwing-4@2x.png" /> */}
       <div className="benifits">
         {/* <img className="benifits-child" alt="" src="/rectangle-69@2x.png" /> */}
         <div className="benifits-item" />
         <div className="benifits-inner" />
+
+        {/* <BubbleAnimation/> */}
+{/* bubbles */}
+<div id="bubble2" className="gradientBubble"></div>
+<div id="bubble" className="gradientBubble"></div>
+<div id="bubble" className="gradientBubble"></div>
+<div id="bubble3" className="gradientBubble"></div>
+<div id="bubble4" className="gradientBubble"></div>
+
+
+<div id="bubble4" className="gradientBubble"></div>
+<div id="moon"></div>
+{/* bubbles */}
         {/* <img className="pngwing-17-icon1" alt="" src="/pngwing-17@2x.png" /> */}
         <div className="frame-div">
           <div className="group-parent">
@@ -51,6 +85,8 @@ const Home = () => {
                 alt=""
                 src={img4}
               />
+
+              
               <div className="available-on-weekends">Available on weekends</div>
               <div className="component-11">
                 <div className="component-1-item" />
